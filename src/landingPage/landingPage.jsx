@@ -1,6 +1,6 @@
 import Logo from "../assets/general/img.png"
 import Search from "../assets/general/img_1.png"
-import Cart from "../img_2.png"
+import Cart from "../assets/general/img_2.png"
 import Plate from "../assets/general/plate.png"
 import MessageIcon from "../assets/general/messageIcon.png"
 import Jollof from "../assets/food imgaes/jollofRice.png"
@@ -10,10 +10,8 @@ import Egwusi from "../assets/food imgaes/egwusi.png"
 import Beans from "../assets/food imgaes/beans.png"
 import FriedRice from "../assets/food imgaes/friedRice.png"
 import "./landingPage.scss"
-import Card, {food} from "../card component/cardComponent";
+import Card from "../card component/cardComponent";
 import Quote from "../assets/svg/quote.svg"
-import AutoPlay from "../carousel component/carousel";
-import SimpleSlider from "../carousel component/carousel";
 import Fade from "../carousel component/carousel";
 import BlogCards from "../blog cards/blogCards";
 import Facebook from "../assets/social Icons/facebook.png"
