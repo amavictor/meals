@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Lato:wght@400;700&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +13,60 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #1A1A1A;
+}
+h3{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  color: #041210;
+}
+h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.margin{
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+@media screen and (max-width: 800px) {
+  .margin{
+    margin-left: 17px;
+    margin-right: 17px;
+  }
 }

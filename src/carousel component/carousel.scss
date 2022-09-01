@@ -1,0 +1,70 @@
+
+.carousel-details{
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+
+  .details{
+
+    img{
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    p{
+      display: block;
+      text-align: center;
+      margin-top:1px;
+      margin-bottom: 0;
+    }
+
+    .name{
+      font-size: 24px;
+      font-weight: 700;
+      color: black;
+    }
+
+  }
+  .comment{
+    margin-left: 60px;
+
+    p{
+      font-size: 20px;
+    }
+  }
+}
+
+//media querie
+
+@media screen and (max-width: 800px) {
+  .carousel-details{
+    flex-direction: column;
+    p{
+      font-size: 12px;
+    }
+    .name{
+      font-size: 16px;
+    }
+    .details{
+      img{
+        width: 48px;
+        height: 48px;
+      }
+      p{
+        clear: right;
+      }
+
+    }
+
+    .comment{
+      p{
+        font-size: 12px;
+      }
+      margin-left: 10px;
+      text-align: center;
+    }
+  }
+
+}
+
